@@ -3,9 +3,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Local Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
+
 <body>
-    
+    <!-- Header to display the City name upon search -->
+    <header>
+        <h1 id="header-text">Weather Dashboard</h1>
+    </header>
+
+    <!-- Main container for webpage content -->
+    <main id="content" class="grid-container">
+
+        <!-- Left side content with city search box -->
+        <section div id="content-left">
+            <form>
+                <label for="search-city">Search for a City:</label>
+                <br>
+                <input type="text" name="city" id="search-city" placeholder="Adelaide">
+                <br>
+                <button id="search-button" type="submit">Search</button>
+            </form>
+              
+        </section>
+
+        <!-- Right side content showing current weather and five day forecast displays on search -->
+        <section id="content-right" class="grid-container-two">
+            <!-- Current weather displayed on top -->
+            <div id="current-weather-items" class="current-weather-items">
+                <h2 id="city-name"> <span id="date" ></span><img src=""></h2>
+                <h6 id="temp">Temp:</h6>
+                <h6 id="wind">Wind:</h6>
+                <h6 id="humidity">Humidity:</h6>
+                <h6 id="uv-index">UV Index:</h6>
+            </div>
+
+            <h3 id="forecast-heading" class="forecast-heading">5-Day Forecast:</h3>
+
+            <!-- Five day forecast displayed below the current weather -->
+            <div id="five-day-forecast" class="container-three">
+
+                <card id="day-one"> 
+                    <h6 id="day-one-date">xx/xx/xxxx</h6>
+                    <img src="">
+                    <h6 id="temp">Temp:</h6>
+                    <h6 id="wind">Wind:</h6>
+                    <h6 id="humidity">Humidity:</h6>
+                </card>
+
+                <card id="day-two"> 
+                    <h6 id="day-two-date">xx/xx/xxxx</h6>
+                    <img src="">
+                    <h6 id="temp">Temp:</h6>
+                    <h6 id="wind">Wind:</h6>
+                    <h6 id="humidity">Humidity:</h6>
+                </card>
+
+                <card id="day-three"> 
+                    <h6 id="day-three-date">xx/xx/xxxx</h6>
+                    <img src="">
+                    <h6 id="temp">Temp:</h6>
+                    <h6 id="wind">Wind:</h6>
+                    <h6 id="humidity">Humidity:</h6>
+                </card>
+
+                <card id="day-four"> 
+                    <h6 id="day-four-date">xx/xx/xxxx</h6>
+                    <img src="">
+                    <h6 id="temp">Temp:</h6>
+                    <h6 id="wind">Wind:</h6>
+                    <h6 id="humidity">Humidity:</h6>
+                </card>
+
+                <card id="day-five"> 
+                    <h6 id="day-five-date">xx/xx/xxxx</h6>
+                    <img src="">
+                    <h6 id="temp">Temp:</h6>
+                    <h6 id="wind">Wind:</h6>
+                    <h6 id="humidity">Humidity:</h6>
+                </card>
+
+            </div>
+                    
+        </section>
+        
+    </main>
+
+
+
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- Local JS Script -->
+    <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
