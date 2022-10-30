@@ -4,25 +4,30 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
- 
-label {
-    font-size: larger;
-    font-weight: bold;
-}
 
-h1{
+h1{ 
+    font-size: 2rem;
     text-align: center;
     background-color: royalblue;
     color: white;
 }
 
-h3{
-    padding:2rem;
+h2 {
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
+
+h6 {
+    font-size: medium;
+    padding: 4px;
+}
+
 
 .grid-container {
     display:grid;
     grid-template-columns: 25% 75%;
+    padding: 2rem;
 }
 
 .grid-container-two {
@@ -34,7 +39,7 @@ h3{
 .current-weather-items {
     margin:1rem;
     border-style: solid;
-}
+    }
 
 .container-three {
     display:flex;
@@ -44,5 +49,5 @@ h3{
 
 #day-one, #day-two, #day-three, #day-four, #day-five {
     background-color: rgb(60, 60, 90);
-    padding: 3rem;
+    padding: 1.5rem;
 }

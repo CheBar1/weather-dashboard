@@ -19,29 +19,29 @@
     <main id="content" class="grid-container">
 
         <!-- Left side content with city search box -->
-        <section div id="content-left">
+        <section id="content-left">
             <form>
-                <label for="search-city">Search for a City:</label>
+                <h2 for="search-city">Search for a City:</h2>
                 <br>
-                <input type="text" name="city" id="search-city" placeholder="Adelaide">
+                <input type="text" name="city" id="search-city" placeholder="Enter name of city">
                 <br>
                 <button id="search-button" type="submit">Search</button>
             </form>
-              
+            <div id="search-container"></div>
+            <button id="clear-button">Clear Search History</button>              
         </section>
 
         <!-- Right side content showing current weather and five day forecast displays on search -->
         <section id="content-right" class="grid-container-two">
             <!-- Current weather displayed on top -->
             <div id="current-weather-items" class="current-weather-items">
-                <h2 id="city-name"> <span id="date" ></span><img src=""></h2>
+                <h2 id="city-name"> <span id="date" ></span><img id="weather-icon" src=""></h2>
                 <h6 id="temp">Temp:</h6>
                 <h6 id="wind">Wind:</h6>
-                <h6 id="humidity">Humidity:</h6>
-                <h6 id="uv-index">UV Index:</h6>
+                <h6 id="humidity">Humidity:</h6> 
             </div>
 
-            <h3 id="forecast-heading" class="forecast-heading">5-Day Forecast:</h3>
+            <h2 id="forecast-heading" class="forecast-heading">5-Day Forecast:</h3>
 
             <!-- Five day forecast displayed below the current weather -->
             <div id="five-day-forecast" class="container-three">
