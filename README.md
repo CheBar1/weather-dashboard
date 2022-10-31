@@ -29,7 +29,7 @@ The following images show the web application's appearance and functionality:
 ![ScreenShot](./assets/images/Screenshot%202022-10-31%20182552.png)
 
 ## Link to deployed application
-
+https://chebar1.github.io/weather-dashboard/
 
 ## Credits
 University of Adelaide - Coding Bootcamp;
