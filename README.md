@@ -26,7 +26,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Screen Shot
 The following images show the web application's appearance and functionality:
-
+![ScreenShot](./assets/images/Screenshot%202022-10-31%20182552.png)
 
 ## Link to deployed application
 
