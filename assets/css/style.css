@@ -44,7 +44,7 @@ h6 {
 .container-three {
     display:flex;
     justify-content: space-around;
-    color: white;
+    color: black;
 }
 
 #day-one, #day-two, #day-three, #day-four, #day-five {
